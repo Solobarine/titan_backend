@@ -1,0 +1,80 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore cache files
+/tmp/cache/*
+!/tmp/cache/
+!/tmp/cache/.keep
+
+# Ignore sockets, but keep the directory.
+/tmp/sockets/*
+!/tmp/sockets/
+!/tmp/sockets/.keep
+
+# Ignore backup and dump files
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sql
+/db/*.sqlite3-*
+/db/schema.rb
+/db/structure.sql
+
+# Ignore all the deployment files
+/deploy
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore secrets
+/config/master.key
+/config/credentials.yml.enc
+
+# Ignore the node_modules directory (for Webpacker)
+/node_modules
+
+# Ignore the yarn cache
+/yarn-error.log
+.yarn-integrity
+
+# Ignore dotenv environment variables files
+.env
+.env.*
+
+# Ignore SASS cache files
+.sass-cache
+.sass-cache/*
+
+# Ignore Byebug command history file.
+/.byebug_history
+
+# Ignore IDE specific files
+.idea
+*.swp
+*~
+
+# Ignore system specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files created by editors
+*.tmproj
+*.tmproject
+.project
+.cproject
+*.juno
+*.workspace
+

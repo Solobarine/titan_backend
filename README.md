@@ -1,73 +1,65 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Titan - Cryptocurrency Wallet Backend
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Overview
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+**Titan** is a cryptocurrency wallet backend built using **TypeScript**, **NestJS**, and **PostgreSQL**. It supports the management and transactions of five major cryptocurrencies: **Bitcoin (BTC)**, **Litecoin (LTC)**, **Solana (SOL)**, **Ethereum (ETH)**, and **Tether (USDT)**. This project is designed to be secure, scalable, and easily extendable for additional features and currencies in the future.
 
-## Description
+## Features
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- **Multi-Currency Support**: Manage and transact in Bitcoin, Litecoin, Solana, Ethereum, and Tether.
+- **User Authentication**: Secure user authentication using JWT (JSON Web Token).
+- **Wallet Management**: Create and manage cryptocurrency wallets for different users.
+- **Transaction Handling**: Send and receive cryptocurrency transactions with real-time tracking.
+- **History Tracking**: Keep track of transaction history for auditing and review.
+- **PostgreSQL Integration**: Store and manage user data and wallet information efficiently with PostgreSQL.
+- **TypeScript & NestJS**: Strongly typed backend development with a modular and scalable architecture.
 
-## Installation
+## Technologies
 
-```bash
-$ npm install
-```
+- **TypeScript**: Ensures type safety and better development practices.
+- **NestJS**: Provides a powerful framework for building efficient and scalable server-side applications.
+- **PostgreSQL**: A reliable and performant relational database for storing user and wallet data.
+- **JWT**: Used for secure user authentication and authorization.
 
-## Running the app
+## Getting Started
 
-```bash
-# development
-$ npm run start
+### Prerequisites
 
-# watch mode
-$ npm run start:dev
+- **Node.js** (v14.x or higher)
+- **PostgreSQL** (v12.x or higher)
+- **Yarn** or **npm**
 
-# production mode
-$ npm run start:prod
-```
+### Installation
 
-## Test
+1. **Clone the repository**:
 
-```bash
-# unit tests
-$ npm run test
+   ```bash
+   git clone https://github.com/yourusername/titan.git
+   cd titan
+   ```
 
-# e2e tests
-$ npm run test:e2e
+2. **Install dependencies**:
 
-# test coverage
-$ npm run test:cov
-```
+   ```bash
+   npm install
+   ```
 
-## Support
+3. **Run Database Migration**
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+   ```bash
+   npm run migration:run
+   ```
+
+4. **Start Server**
+   ```bash
+   npm start
+   ```
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Solomon Akpuru](https://solobarine.netlify.app)
+- LinkedIn - [https://linkedin.com/in/solomon-akpuru](https://linkedin.com/in/solomon-akpuru)
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+Titan Backend is [MIT licensed](LICENSE).
